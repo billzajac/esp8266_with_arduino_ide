@@ -34,11 +34,6 @@ perl -i -pe "s#tools.esptool.upload.pattern=.*#tools.esptool.upload.pattern=\"${
 * Upload your sketch
 
 
-Pinout
--------------------------
-
-![](./ESP8266-01-pinout.png)
-
 FTDI or PL2303 Connection
 -------------------------
 ![](./ESP8266-01_to_FTDI.png)
