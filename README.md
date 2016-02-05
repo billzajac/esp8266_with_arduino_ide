@@ -23,7 +23,7 @@ brew install python
 pip install pyserial
 mkdir ~/bin
 cd /tmp && git clone https://github.com/themadinventor/esptool && cp esptool/esptool.py ~/bin/esptool.py
-perl -i -pe "s#/usr/bin/env python#/usr/local/bin/pythonperl -i -pe "s#/usr/bin/env python#/usr/local/bin/python#" ~/bin/esptool.py # Force esptool to use homebrew python
+perl -i -pe "s#/usr/bin/env python#/usr/local/bin/python#" ~/bin/esptool.py # Force esptool to use homebrew python
 
 # Note: using command line substitution with ${HOME} below because the platform.txt file cannot interpret ~
 perl -i -pe "s#tools.esptool.upload.pattern=.*#tools.esptool.upload.pattern=\"${HOME}/bin/esptool.py\" --port \"{serial.port}\" write_flash 0x00000 \"{build.path}/{build.project_name}.bin\"#" ~/Library/Arduino15/packages/esp8266/hardware/esp8266/2.1.0-rc2/platform.txt
