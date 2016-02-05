@@ -9,12 +9,12 @@ mv ~/Library/Arduino15 ~/Library/Arduino15-old
 mkdir ~/Library/Arduino15
 cp ~/Library/Arduino15-old/preferences.txt ~/Library/Arduino15
 ```
-* Start Arduino
+* Start Arduino (Note: Assuming version 1.6.7)
 * Click 'Arduino' -> 'Preferences'
     * Additional Boards Manager URLs: http://arduino.esp8266.com/staging/package_esp8266com_index.json
 * Restart Arduino IDE
 * Click 'Tools' -> 'Board' -> 'Boards Manager'
-    * Select 'Generic ESP8266 Module'
+    * Select 'Generic ESP8266 Module' # NOTE: Assuming version 2.1.0-rc2 (see replace below)
 * Stop Arduino IDE
 * Install pyserial, esptool, and reconfigure IDE to use pyserial
 
