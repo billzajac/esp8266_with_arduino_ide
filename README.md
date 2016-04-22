@@ -16,6 +16,7 @@ Configure Arduino IDE for ESP8266
 
 ### Note: You can still use esptool.py if you want
 
+* https://github.com/themadinventor/esptool
 * Follow the steps below.  The same command should work with any version
 
 ```
