@@ -1,7 +1,7 @@
 Configure Arduino IDE for ESP8266
 -------------------------
 
-## Simplified steps as of of Arduino IDE 1.6.8 with ESP2866 library version 2.2.0-rc1
+## Simplified steps as of of Arduino IDE 1.6.8 with ESP2866 library version 2.2.0-rc1 or greater
 
 * Start Arduino (Note: Assuming version 1.6.8)
 * Click 'Arduino' -> 'Preferences'
